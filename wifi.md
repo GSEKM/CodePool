@@ -8,3 +8,16 @@ https://github.com/chunlinhan/WiFiRM04
 https://github.com/pmoscetta/authometion-milight
 https://github.com/cjbearman/xbee-wifi-spi-arduino
 https://github.com/Hieromon/ESP8266
+https://github.com/al177/esp8089
+https://github.com/guyz/pyesp8266
+https://github.com/bafeigum/ESP8266-Library
+https://github.com/mathew-hall/esp8266-dht
+https://github.com/sebastianhodapp/ESPbootloader
+https://github.com/imjosh/espLedDimmer
+https://github.com/dubaurazvan/esp8266-wireless-switcher
+https://github.com/kerikun11/IR-Station
+https://github.com/tjclement/esp-dimmer-hardware
+https://github.com/Jorgen-VikingGod/ESP8266-MFRC522
+https://github.com/ydonnelly/ESP8266_fritzing
+https://github.com/adamjvr/ESP32-kiCAD-Footprints
+https://github.com/kalanda/esp8266-sniffer
