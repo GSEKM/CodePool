@@ -336,3 +336,347 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-02-14 06:58:14.216
 !MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-14 08:23:33.700
+!MESSAGE No repository found at http://www.stateofflow.com/UpdateSite.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-14 08:23:37.293
+!MESSAGE No repository found at http://www.stateofflow.com/UpdateSite.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-14 08:23:53.655
+!MESSAGE No repository found at http://www.stateofflow.com/UpdateSite.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-14 08:24:07.873
+!MESSAGE No repository found at http://www.stateofflow.com/UpdateSite.
+!SESSION 2019-02-14 08:24:48.267 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-14 08:31:05.847
+!MESSAGE No repository found at http://www.stateofflow.com/UpdateSite.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-14 08:31:09.361
+!MESSAGE No repository found at http://www.stateofflow.com/UpdateSite.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-02-14 08:31:22.029
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://hudson.eclipse.org/papyrus/view/Sysml/job/papyrus-sysml-website/ws/site-staging/index.html.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:340)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:239)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-14 08:31:22.031
+!MESSAGE No repository found at https://hudson.eclipse.org/papyrus/view/Sysml/job/papyrus-sysml-website/ws/site-staging/index.html.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-02-14 08:31:25.298
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://metrics.sourceforge.net/updatetype%20or%20select%20a%20site.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:340)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:239)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-14 08:31:25.298
+!MESSAGE No repository found at http://metrics.sourceforge.net/updatetype%20or%20select%20a%20site.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-02-14 08:31:46.593
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://hudson.eclipse.org/papyrus/view/Sysml/job/papyrus-sysml-website/ws/site-staging/index.html.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:340)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:239)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-14 08:31:46.594
+!MESSAGE No repository found at https://hudson.eclipse.org/papyrus/view/Sysml/job/papyrus-sysml-website/ws/site-staging/index.html.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-02-14 08:31:49.471
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://metrics.sourceforge.net/updatetype%20or%20select%20a%20site.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:340)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:239)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-14 08:31:49.471
+!MESSAGE No repository found at http://metrics.sourceforge.net/updatetype%20or%20select%20a%20site.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-02-14 08:40:34.569
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://hudson.eclipse.org/papyrus/view/Sysml/job/papyrus-sysml-website/ws/site-staging/index.html.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:340)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:239)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-14 08:40:34.569
+!MESSAGE No repository found at https://hudson.eclipse.org/papyrus/view/Sysml/job/papyrus-sysml-website/ws/site-staging/index.html.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-02-14 08:40:38.382
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://metrics.sourceforge.net/updatetype%20or%20select%20a%20site.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:340)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:239)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-14 08:40:38.383
+!MESSAGE No repository found at http://metrics.sourceforge.net/updatetype%20or%20select%20a%20site.
+
+!ENTRY net.sourceforge.metrics 4 4 2019-02-14 08:49:10.243
+!MESSAGE Invalid source in AbstractLinesOfCode
+!STACK 0
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Character_Constant
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1428)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculateNumberOfLines(AbstractLinesOfCode.java:74)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculate(AbstractLinesOfCode.java:39)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.invokeCalculators(AbstractMetricSource.java:487)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.calculate(AbstractMetricSource.java:167)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:305)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.TypeMetrics.initializeChildren(TypeMetrics.java:79)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.CompilationUnitMetrics.initializeChildren(CompilationUnitMetrics.java:86)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:109)
+	at net.sourceforge.metrics.builder.MetricsBuilder$ChangedCommand.execute(MetricsBuilder.java:509)
+	at net.sourceforge.metrics.builder.MetricsBuilder$CalculatorThread.run(MetricsBuilder.java:713)
+
+!ENTRY net.sourceforge.metrics 4 4 2019-02-14 08:49:10.246
+!MESSAGE Invalid source in AbstractLinesOfCode
+!STACK 0
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Character_Constant
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1428)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculateNumberOfLines(AbstractLinesOfCode.java:74)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculate(AbstractLinesOfCode.java:39)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.invokeCalculators(AbstractMetricSource.java:487)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.calculate(AbstractMetricSource.java:167)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:305)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.TypeMetrics.initializeChildren(TypeMetrics.java:79)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.CompilationUnitMetrics.initializeChildren(CompilationUnitMetrics.java:86)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:109)
+	at net.sourceforge.metrics.builder.MetricsBuilder$ChangedCommand.execute(MetricsBuilder.java:509)
+	at net.sourceforge.metrics.builder.MetricsBuilder$CalculatorThread.run(MetricsBuilder.java:713)
+
+!ENTRY net.sourceforge.metrics 4 4 2019-02-14 08:49:10.249
+!MESSAGE Invalid source in AbstractLinesOfCode
+!STACK 0
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Character_Constant
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1428)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculateNumberOfLines(AbstractLinesOfCode.java:74)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculate(AbstractLinesOfCode.java:39)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.invokeCalculators(AbstractMetricSource.java:487)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.calculate(AbstractMetricSource.java:167)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:305)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.TypeMetrics.initializeChildren(TypeMetrics.java:79)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.CompilationUnitMetrics.initializeChildren(CompilationUnitMetrics.java:86)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:109)
+	at net.sourceforge.metrics.builder.MetricsBuilder$ChangedCommand.execute(MetricsBuilder.java:509)
+	at net.sourceforge.metrics.builder.MetricsBuilder$CalculatorThread.run(MetricsBuilder.java:713)
+
+!ENTRY net.sourceforge.metrics 4 4 2019-02-14 08:49:10.254
+!MESSAGE Invalid source in AbstractLinesOfCode
+!STACK 0
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Character_Constant
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1428)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculateNumberOfLines(AbstractLinesOfCode.java:74)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculate(AbstractLinesOfCode.java:39)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.invokeCalculators(AbstractMetricSource.java:487)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.calculate(AbstractMetricSource.java:167)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:305)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.TypeMetrics.initializeChildren(TypeMetrics.java:79)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.CompilationUnitMetrics.initializeChildren(CompilationUnitMetrics.java:86)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:109)
+	at net.sourceforge.metrics.builder.MetricsBuilder$ChangedCommand.execute(MetricsBuilder.java:509)
+	at net.sourceforge.metrics.builder.MetricsBuilder$CalculatorThread.run(MetricsBuilder.java:713)
+
+!ENTRY net.sourceforge.metrics 4 4 2019-02-14 08:49:10.259
+!MESSAGE Invalid source in AbstractLinesOfCode
+!STACK 0
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Character_Constant
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1428)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculateNumberOfLines(AbstractLinesOfCode.java:74)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculate(AbstractLinesOfCode.java:39)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.invokeCalculators(AbstractMetricSource.java:487)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.calculate(AbstractMetricSource.java:167)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:305)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.TypeMetrics.initializeChildren(TypeMetrics.java:79)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.CompilationUnitMetrics.initializeChildren(CompilationUnitMetrics.java:86)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:109)
+	at net.sourceforge.metrics.builder.MetricsBuilder$ChangedCommand.execute(MetricsBuilder.java:509)
+	at net.sourceforge.metrics.builder.MetricsBuilder$CalculatorThread.run(MetricsBuilder.java:713)
+
+!ENTRY net.sourceforge.metrics 4 4 2019-02-14 08:49:10.264
+!MESSAGE Invalid source in AbstractLinesOfCode
+!STACK 0
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Character_Constant
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1428)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculateNumberOfLines(AbstractLinesOfCode.java:74)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculate(AbstractLinesOfCode.java:39)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.invokeCalculators(AbstractMetricSource.java:487)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.calculate(AbstractMetricSource.java:167)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:305)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.TypeMetrics.initializeChildren(TypeMetrics.java:79)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.CompilationUnitMetrics.initializeChildren(CompilationUnitMetrics.java:86)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:109)
+	at net.sourceforge.metrics.builder.MetricsBuilder$ChangedCommand.execute(MetricsBuilder.java:509)
+	at net.sourceforge.metrics.builder.MetricsBuilder$CalculatorThread.run(MetricsBuilder.java:713)
+
+!ENTRY net.sourceforge.metrics 4 4 2019-02-14 08:49:10.269
+!MESSAGE Invalid source in AbstractLinesOfCode
+!STACK 0
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Character_Constant
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1428)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculateNumberOfLines(AbstractLinesOfCode.java:74)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculate(AbstractLinesOfCode.java:39)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.invokeCalculators(AbstractMetricSource.java:487)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.calculate(AbstractMetricSource.java:167)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:305)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.TypeMetrics.initializeChildren(TypeMetrics.java:79)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.CompilationUnitMetrics.initializeChildren(CompilationUnitMetrics.java:86)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:109)
+	at net.sourceforge.metrics.builder.MetricsBuilder$ChangedCommand.execute(MetricsBuilder.java:509)
+	at net.sourceforge.metrics.builder.MetricsBuilder$CalculatorThread.run(MetricsBuilder.java:713)
+
+!ENTRY net.sourceforge.metrics 4 4 2019-02-14 08:49:10.274
+!MESSAGE Invalid source in AbstractLinesOfCode
+!STACK 0
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Character_Constant
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1428)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculateNumberOfLines(AbstractLinesOfCode.java:74)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculate(AbstractLinesOfCode.java:39)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.invokeCalculators(AbstractMetricSource.java:487)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.calculate(AbstractMetricSource.java:167)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:305)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.TypeMetrics.initializeChildren(TypeMetrics.java:79)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.CompilationUnitMetrics.initializeChildren(CompilationUnitMetrics.java:86)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:109)
+	at net.sourceforge.metrics.builder.MetricsBuilder$ChangedCommand.execute(MetricsBuilder.java:509)
+	at net.sourceforge.metrics.builder.MetricsBuilder$CalculatorThread.run(MetricsBuilder.java:713)
+
+!ENTRY net.sourceforge.metrics 4 4 2019-02-14 08:49:10.279
+!MESSAGE Invalid source in AbstractLinesOfCode
+!STACK 0
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Character_Constant
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1428)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculateNumberOfLines(AbstractLinesOfCode.java:74)
+	at net.sourceforge.metrics.calculators.AbstractLinesOfCode.calculate(AbstractLinesOfCode.java:39)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.invokeCalculators(AbstractMetricSource.java:487)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.calculate(AbstractMetricSource.java:167)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:305)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.TypeMetrics.initializeChildren(TypeMetrics.java:79)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:132)
+	at net.sourceforge.metrics.core.sources.CompilationUnitMetrics.initializeChildren(CompilationUnitMetrics.java:86)
+	at net.sourceforge.metrics.core.sources.AbstractMetricSource.recurse(AbstractMetricSource.java:297)
+	at net.sourceforge.metrics.core.sources.Dispatcher.calculateAbstractMetricSource(Dispatcher.java:109)
+	at net.sourceforge.metrics.builder.MetricsBuilder$ChangedCommand.execute(MetricsBuilder.java:509)
+	at net.sourceforge.metrics.builder.MetricsBuilder$CalculatorThread.run(MetricsBuilder.java:713)
+
+!ENTRY org.eclipse.ui 2 2 2019-02-14 08:52:43.469
+!MESSAGE Invalid preference category path: org.eclipse.papyrus.infra.properties.ui.propertyview (bundle: org.eclipse.papyrus.uml.properties, page: org.eclipse.papyrus.uml.properties.multiplicityEditorProperties)

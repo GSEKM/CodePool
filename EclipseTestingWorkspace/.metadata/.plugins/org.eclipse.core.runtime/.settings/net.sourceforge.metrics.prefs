@@ -1,0 +1,7 @@
+METRICS.defaultColor=255,255,255
+METRICS.depGR_background=138,226,52
+METRICS.lastPrefChange=1550141624601
+METRICS.linkedColor=114,159,207
+METRICS.outOfRangeColor=239,41,41
+NORM.ExludeList=toString,hashCode,equals
+eclipse.preferences.version=1
