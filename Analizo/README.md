@@ -7,7 +7,7 @@ deb-src http://analizo.org/download/ ./
 deb http://debian.joenio.me unstable/
 deb-src http://debian.joenio.me unstable/
 ```
-Get the repositories signing key as root(You can use sudo -i for Debian users):
+Get the repositories signing key as root (you can use sudo -i for Debian users):
 
 ```
 wget -O - http://debian.joenio.me/signing.asc | apt-key add -
