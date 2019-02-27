@@ -18,5 +18,5 @@ And install the doxyparse 1.8.11 and analizo 1.19.1:
 
 ```
 apt install doxyparse=1.8.11-1
-apt install analizo=1.19.1
+apt install analizo
 ```
