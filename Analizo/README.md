@@ -14,7 +14,7 @@ wget -O - http://debian.joenio.me/signing.asc | apt-key add -
 wget -O - http://analizo.org/download/signing-key.asc | apt-key add -
 ```
 
-And install the doxyparse 1.8.11 and analizo 1.19.1:
+And install the doxyparse 1.8.11 and the last version of analizo:
 
 ```
 apt install doxyparse=1.8.11-1
