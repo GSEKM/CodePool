@@ -28,6 +28,3 @@
 [submodule "X-PID-Arduino-PID-motor-control"]
 	path = X-PID-Arduino-PID-motor-control
 	url = https://github.com/X-Sim/X-PID-Arduino-PID-motor-control
-[submodule "analizo"]
-	path = analizo
-	url = https://github.com/analizo/analizo
