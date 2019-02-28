@@ -1,4 +1,4 @@
-#Here's a guide on how to install and run Analizo, a toolkit for source code analysis and visualization.
+# Here's a guide on how to install and run Analizo, a toolkit for source code analysis and visualization.
 
 Add the repositories on the /etc/apt/sources.list:
 
@@ -23,7 +23,7 @@ apt install doxyparse=1.8.11-1
 apt install analizo
 ```
 
-#Guide to Analizo
+# Guide to Analizo
 Go into the project folder from the terminal and run the analizo with the "metrics option":
 ```
 analizo metrics
