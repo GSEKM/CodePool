@@ -31,3 +31,5 @@
 [submodule "analizo"]
 	path = analizo
 	url = https://github.com/analizo/analizo
+[submodule "Analizo_workflow/WiFiEsp"]
+	url = https://github.com/bportaluri/WiFiEsp
