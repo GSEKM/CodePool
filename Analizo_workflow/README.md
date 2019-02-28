@@ -1,4 +1,4 @@
-# Here's a guide on how to install and run Analizo, a toolkit for source code analysis and visualization.
+# How to install and run Analizo, a toolkit for source code analysis and visualization.
 
 Add the repositories on the /etc/apt/sources.list:
 
