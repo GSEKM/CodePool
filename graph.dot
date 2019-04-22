@@ -1,0 +1,16 @@
+digraph callgraph
+{
+
+  /* list of nodes */
+  "AFMotor";
+  "AFMotorController";
+  "AF_DCMotor";
+  "AF_Stepper";
+
+  /* list of edges */
+  "AFMotor" -> "AFMotorController" [label = "4",style = "solid"];
+  "AF_DCMotor" -> "AFMotor" [label = "8",style = "solid"];
+  "AF_DCMotor" -> "AFMotorController" [label = "3",style = "solid"];
+  "AF_Stepper" -> "AFMotor" [label = "12",style = "solid"];
+  "AF_Stepper" -> "AFMotorController" [label = "4",style = "solid"];
+}
