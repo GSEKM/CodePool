@@ -4,9 +4,6 @@
 [submodule "StepperDriver"]
 	path = StepperDriver
 	url = https://github.com/laurb9/StepperDriver
-[submodule "TeensyStep"]
-	path = TeensyStep
-	url = https://github.com/luni64/TeensyStep
 [submodule "car-controller"]
 	path = car-controller
 	url = https://github.com/jabelone/car-controller
@@ -25,9 +22,6 @@
 [submodule "arduino_L298N"]
 	path = arduino_L298N
 	url = https://github.com/yohendry/arduino_L298N
-[submodule "X-PID-Arduino-PID-motor-control"]
-	path = X-PID-Arduino-PID-motor-control
-	url = https://github.com/X-Sim/X-PID-Arduino-PID-motor-control
 [submodule "analizo"]
 	path = analizo
 	url = https://github.com/analizo/analizo
